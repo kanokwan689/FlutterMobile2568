@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
+import 'package:first_app/api_example/Assigmentweek5.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       // *** นี่คือส่วนที่ต้องแก้ไข ***
       // กำหนดให้ AirQualityPage เป็นหน้าแรก (home) ของแอป
-      home: const AirQualityPage(),
+      home: const Assigmentweek5(),
     );
   }
 }
